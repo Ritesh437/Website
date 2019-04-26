@@ -1,0 +1,162 @@
+body{
+	align-content: center;
+	background-color: #ffc107;
+}
+
+.header{
+	background: #cccccc;
+	border-bottom: black 3px solid;
+	border-radius: 20px;
+	margin-top: 30px;
+	width: 1000px;
+	margin: auto;
+	margin-top: 30px;
+	text-align: center;
+	}
+.header h1{
+	font-style: oblique;
+	letter-spacing: 0.05em;
+}
+.header p{
+	font-family: cursive;
+		font-size: 20px;
+}
+
+.rules{
+	margin: 0px auto;
+	width: 80%;
+}
+.wrapper{
+	margin: auto auto;
+	margin-top: 30px;
+	text-align: center;
+	width: 1006px;
+	height: 506px;
+	background-color: aqua;
+	border: aqua 3px solid;
+	min-width: 1000px;
+}
+.player-tab-0,
+.player-tab-1{
+	width: 500px;
+	height: 500px;
+	float: left;
+	position: relative;
+	background-color: aquamarine;
+}
+.player{
+	padding-top: 100px;
+	font-size: 30px;
+	text-align: center;
+}
+.score{
+	padding: 20px;
+	color: red;
+	font-size: 40px;
+	font-style: italic;
+}
+.current-box{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	margin: 100px auto;
+}
+.current-box div{
+	font-weight: 800;
+	font-size: 30px;
+}
+.current{
+	padding-top: 15px;
+	color: orangered;
+}
+#dice{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 650px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.btn-1,.btn-2,.btn-3{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #555;
+
+}
+.btn{
+	background-color: #1961d6;
+	color: white;
+	border-radius: 15px;
+	width: 100px;
+	height: 40px;
+}
+.btn-1{
+	top: 500px;
+	width: 120px;
+}
+.btn-2{
+	top: 820px;
+}
+.btn-3{
+	top: 880px;
+}
+.ritesh{
+	width: 150px;
+}
+.source{
+	width: 150px;
+}
+button:hover{
+	font-weight: 800;
+	cursor: pointer;
+}
+button:active{
+	font-weight: normal;
+}
+.active{
+	background-color: #679cfc;
+}
+.active .player{
+	font-weight: 700;
+}
+.active .player-name::after {
+    content: "\2022";
+    font-size: 47px;
+    position: absolute;
+    color: #EB4D4D;
+    top: -7px;
+    right: 10px;
+}
+.winner { background-color: #f7f7f7; }
+.winner .player { font-weight: 300; color: #EB4D4D; }
+.form-section {
+	padding: 50px}
+
+.buttonn{
+	width: 55px;
+	height: 75px;
+	margin-right: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.buttonn:hover{
+	transform: scale(1.2);
+}
+.buttonn:active{
+	transform: scale(0.8);
+}
+.sourcee{
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+}
+
+@media(max-width:1000px){
+	.header,.rules,.wrapper,.sourcee,.container{
+		display: none;
+	}
+}
+		

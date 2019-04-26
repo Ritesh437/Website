@@ -1,0 +1,142 @@
+*{
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+body{
+
+    background-color: #f4f4f4;
+}
+
+.header{
+    background-color: rgb(154, 156, 156);
+    border-bottom: black 5px solid;
+    border-radius: 5px;
+    width: 70%;
+    text-align: center;
+}
+
+.container{
+    background-color: #d4cccc;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-image: url("MATH.jpg");
+}
+.calc-main{
+    background-color: #9FA4C4;
+    width: 400px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+.input , .result{
+    height: 50px;
+    width: 380px;
+    font-size: 30px;
+}
+.input{
+    padding-top: 5px;
+    background-color: rgb(102, 97, 107);
+    text-align: left;
+    padding-left: 5px;
+}
+.result{
+    background-color: rgb(126, 126, 126);
+    text-align: right;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    padding-right: 5px;
+}
+.no{
+    float: left;
+    width: 60%;
+    margin-left: 7px;
+}
+.sy{
+    float: right;
+    width: 36%;
+}
+.n{
+    padding-top: 8px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(110, 114, 114);
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 30px;
+}
+#15,#16,#17,#18{
+    background-color: rgba(255,0,100,0.5);
+}
+.redd{
+    background-color: rgb(245, 86, 86);
+}
+.buttonn{
+    width: 55px;
+    height: 75px;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.buttonn:hover{
+   transform: scale(1.2);
+}
+.buttonn:active{
+    transform: scale(0.8);
+}
+
+.sourcee{
+	width: 50%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (max-width:510px){
+    .buttonn{
+        width: 37px;
+        height: 50px;
+    }
+    .calc-main{
+        width: 90%;
+    }
+    .input , .result{
+        width: 90%;
+    }
+    .n{
+        width: 55px;
+    }
+}
+@media (max-width:400px){
+    .buttonn{
+        width: 27px;
+        height: 37px;
+    }
+    .sourcee{
+        font-size: 10px;
+    }
+    .sy{
+        width: 45%;
+    }
+    .n{
+        width: 45px;
+    }
+}
+@media (max-width:310px){
+    .calc-main{
+        width: 100%;
+    }
+    .n{
+        width: 40px;
+    }
+    .container{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}

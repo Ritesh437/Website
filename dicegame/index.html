@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Game</title>
+	<link rel="stylesheet" href="../nav/nav.css">
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<meta charset="UTF-8">
+	<meta name="description" content="A simple Dice game made using javascript">
+	<meta name="keywords" content="Dice Game Javascript,Javascript dice Game,dice game by Ritesh Ghimere">
+	<meta name="author" content="Ritesh Ghimere">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+	<div class="nav">
+        
+	</div>
+<div class="header">
+	<h1>Dice Game</h1>
+	<p>Ritesh Ghimere</p>
+</div>
+
+<br>
+<div class="rules">
+	<h3>Rules :-</h3>
+	<ol>
+		<li>Press 'Roll' to roll the dice.</li>
+	 <li>If you roll number 2-6 the number is added to your current score.</li>
+	 <li>you can keep on rolling ar press 'hold'.</li>
+	 <li>if you roll number 1 before pressing 'hold' current score is lost antl caneol revert. another player.</li>
+	 <li>When you press 'hold' your current score is added to main score and control revert. another player.</li>
+	 <li>First player to reach score 100 Wins the game.</li>
+	 <li>press 'New Game' to start again.</li>
+	</ol>
+</div>
+
+
+<div class="wrapper">
+
+	<div class="player-tab-0">
+		<div class="player" id="player-0">Player 1</div>
+		<div class="score" id="score-0">0</div>
+		<div class="current-box">
+			<div>current</div>
+			<div class="current" id="current-0">0</div>
+		</div>
+
+	</div>
+
+	<div class="player-tab-1">
+		<div class="player" id="player-1">Player 2</div>
+		<div class="score" id="score-1">0</div>
+		<div class="current-box">
+			<div>current</div>
+			<div class="current" id="current-1">0</div>
+		</div>
+	</div>
+	<img src="dice-5.png" alt="dice" id="dice">
+	<button class="btn-1 btn">New Game</button>
+	<button class="btn-2 btn">Roll</button>
+	<button class="btn-3 btn">Hold</button>
+</div>
+<br>
+<div class="sourcee">
+		<h2>View source files here</h2>
+		<img class="buttonn" src="html.png" alt="HTML" onclick="viewSource()">
+		<a href="style.css" target="popup" 
+		onclick="window.open('style.css','popup','width=600,height=600,scrollbars=1,resizable=1'); return false;"><img class="buttonn" src="css.png" alt="CSS"></a>
+		<a href="script.js" target="popup" 
+		onclick="window.open('script.js','popup','width=600,height=600,scrollbars=1,resizable=1'); return false;"><img class="buttonn" src="js.png" alt="javascript"></a>
+</div>
+<hr>
+<div class="container">
+	 <p>Click the button below to Mail Me.</p>
+	 <a href="mailto:cool.rkroling@gmail.com?Subject=My%20Fedback">
+		 <button type="button" class="btn ritesh" data-toggle="modal" data-target="#exampleModal">Ritesh Ghimere</button>
+		 </a>
+</div>
+
+<hr>
+
+
+
+<script src="script.js"></script>
+<script src="../nav/nav.js"></script>
+</body>
+
+</html>
+Error: This app is only supported for big screen(>2000px)

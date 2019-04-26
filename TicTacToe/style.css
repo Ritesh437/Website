@@ -1,0 +1,109 @@
+
+*{
+    align-content: center;
+}
+body{
+  background-color: #ffc107;
+}
+
+.headerr{
+    background-color: #cccccc;
+    border-bottom: 10px solid;
+    border-color: black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 50px;
+  }
+
+  #containerr{
+    background-color: #87f3ff !important;
+    width: 70%;
+    height: 550px;
+    margin: 0px auto;
+    margin-top: 30px;
+    border: 10px #00e5ff solid;
+    align-content: center;
+  }
+.bod{
+padding-top: 1px;
+}
+  .mainn{
+    background-color: #4f4f4f;
+    width: 191px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-left: 3px;
+    padding-top: 4px;
+  }
+  .boxx{
+    cursor: pointer;
+    display: inline-block;
+  }
+  .headd{
+    text-align: center;
+  }
+  .neww{
+    margin: auto;
+    cursor: pointer;
+    position: initial;
+  }
+  .btn{
+    background-color: #1961d6;
+    color: white;
+    border-radius: 15px;
+    width: 120px;
+    height: 40px;
+  }
+  
+  .btn:hover{
+    color: #000000;
+  }
+  .result{
+    border: blue solid;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  #win{
+    position: relative;
+    text-align: center;
+  }
+  #draw{
+    position: relative;
+    text-align: center;
+  }
+  #rh1{
+    position: relative;
+    text-align: center;
+  }
+  .bottom{
+    background-color: #cccccc;
+  }
+ 
+
+.buttonn{
+	width: 55px;
+	height: 75px;
+	margin-right: 20px;
+	cursor: pointer;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+.buttonn:hover{
+	transform: scale(1.2);
+}
+.buttonn:active{
+	transform: scale(0.8);
+}
+.sourcee{
+	width: 50%;
+	text-align: center;
+	margin: 0px auto;
+}
+.sourcee h2{
+    font-size: 16px;
+}
