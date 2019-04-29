@@ -1,0 +1,65 @@
+body {
+    background-color: #07eeff;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+label{
+    font-size: 20px;
+}
+.container{
+    background-color: #b8b8b8;
+    margin: auto;
+    padding: 40px;
+    width: 70%;
+}
+#item{
+    height: 30px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+#item:focus{
+    background-color: rgb(164, 255, 164);
+}
+ul{
+    list-style-type: none;
+}
+.li{
+    padding: 10px;
+    height: 30;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.remove{
+    float: right;
+    background-color: rgb(255, 107, 107);
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.li:nth-child(odd){
+    background-color: rgb(207, 123, 123);
+}
+.li:nth-child(even){
+    background-color: rgb(97, 204, 129);
+}
+.btn{
+    background-color: rgb(58, 58, 255);
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.warning{
+    color: yellow;
+}
+@media(max-width:420px){
+    #item{
+        margin-bottom: 10px;
+    }
+}
