@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Projectile Motion Simulation</title>
+    <link rel="icon" type="icon" href="../Logo.png">
     <link rel="stylesheet" href="../nav/nav.css">
     <link rel="stylesheet" href="style.css">
   </head>
@@ -10,11 +11,16 @@
       <div class="nav">
         
         </div>
-    <label>Angle of projection</label>
-    <input id="ang" type="number" name="angle" value="30" placeholder="angle in degree"><br>
+    <div class="main">
+      <label>Angle of projection</label>
+    <input id="ang" type="number" name="angle" placeholder="degree"><br>
     <label>Initial velocity</label>
-    <input id="vel" type="number" name="velocity" value="20" placeholder="Initial velocity">
+    <input id="vel" type="number" name="velocity" placeholder="m/s">
     <button id="btn" name="button">Simulate</button>
+    <p class="range">Horizontal Range : 0 m</p>
+    <p class="height">Maximum Hight : 0 m</p>
+    <p class="time">Time of Flight : 0 s</p>
+    </div>
 
     <canvas id="can"></canvas>
     <script src="script.js"></script>

@@ -14,7 +14,7 @@ function sizeChange() {
 var n = 300;   // number of circles
 
 if (window.innerWidth < 400) {
-    n = 100;
+    n = 200;
     
 }
 

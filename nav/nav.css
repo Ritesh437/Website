@@ -17,7 +17,7 @@
     margin-top: 5px;
 }
 .navbar ul{
-    margin: 10px 0 0 0;
+    margin: 0 0 0 0;
     list-style: none;
 }
 .navbar a:hover{
@@ -25,7 +25,7 @@
     color: #000;
 }
 .side-nav{
-    height: 100%;
+    height: auto;
     overflow: hidden;
     position: fixed;
     z-index: 1;
@@ -56,6 +56,9 @@
     right: 22px;
     font-size: 36px;
     margin-left: 50px;
+}
+.home-logo{
+    height: 40px;
 }
 
 

@@ -75,7 +75,7 @@ function animate() {
     c.stroke();
 
     t += 1;
-    if (t > 1800) {
+    if (t > 720) {
         cancelAnimationFrame(anim);
     }
 }

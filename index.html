@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Simple Games</title>
+  <title>Coding Adict</title>
+  <link rel="icon" type="icon" href="Logo.png">
   <link rel="stylesheet" href="nav/nav.css">
   <link rel="stylesheet" href="https://use.typekit.net/ykw1mcv.css">
   <meta charset="UTF-8">
@@ -97,6 +98,9 @@
     font-weight: 400;
     font-style: normal;
   }
+  .none{
+    width: 0px;
+  }
  
   @media (max-width:420px){
     .item{
@@ -123,6 +127,7 @@
 
 <body>
 
+
   <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=2279788005569717&autoLogAppEvents=1"></script>
 
@@ -148,7 +153,7 @@
             <a href="Calculator/index.html">Calculator</a>
             <a  href="Canvas/index.html">Moving Circles</a>
             <a href="DiceGame/index.html">Dice Game</a>
-            <a href="HtmlGame/game.html">Snake Xania (Canvas Game)</a>
+            <a href="snake/game.html">Snake Xania (Canvas Game)</a>
             <a href="ROtation/index.html">Circle and Ellipse Animation</a>
             <a href="ProjectileMotionSimulation/index.html">Projectile Motion Simulation</a>
         </div>
@@ -188,7 +193,7 @@
         </div>
 
         <P><b>Visit my facebook page</b></P>
-        <div class="fb-page" data-href="https://www.facebook.com/Gotchatbot123/" data-tabs="messages" data-width="" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Gotchatbot123/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Gotchatbot123/">Game of thrones Chat Bot</a></blockquote></div>
+        <div class="fb-page" data-href="https://www.facebook.com/Gotchatbot123/" data-tabs="messages" data-height="300" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Gotchatbot123/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Gotchatbot123/">Game of thrones Chat Bot</a></blockquote></div>
         <br>
         <br>
         <a href="form/form.html"><button class="btn">Visitor Survey</button></a>
@@ -202,7 +207,14 @@
         </a>
   </div>
 
- 
+  <script>
+      if(window.innerWidth < 400) {
+        console.log('small');
+        document.querySelector('.mail').remove();
+        document.querySelector('.container').style.marginRight = '0px'
+        document.querySelector('.container').style.marginLeft = '0px'        
+      }
+    </script>
 
 </body>
 

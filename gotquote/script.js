@@ -4,6 +4,9 @@ const fact_p = document.getElementById('fact-p');
 const fact = document.querySelector('.fact');
 const btn = document.getElementById('btn');
 
+
+// AJAX method
+
 // const getFact = (e) => {
 //     let value = e.target.value;
 
@@ -21,9 +24,13 @@ const btn = document.getElementById('btn');
 //     xhr.send();
 // }
 
+// AJAX method
+
+
+// FETCH method
+
 const showData = (data) => {
     data = JSON.parse(data);
-    console.log(data);
     fact_p.innerText = data.quote;
 }
 
@@ -42,4 +49,13 @@ const getFact = (e) => {
     }).catch(err => console.log(err));
 }
 
+
+// FETCH method
+
 btn.addEventListener('click', getFact);
+
+
+// can use any of two method
+
+// FETCH is asynchronous
+// AJAX is synchronous
